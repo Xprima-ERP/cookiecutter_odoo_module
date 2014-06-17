@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<openerp>
+  <data noupdate="1">
+    <record model="ir.ui.view" id="view_id">
+      <field name="name">view.name</field>
+      <field name="model">object_name</field>
+      <!-- types: tree,form,calendar,search,graph,gantt,kanban -->
+      <field name="type">form</field>
+      <field name="priority" eval="16"/>
+      <field name="arch" type="xml">
+      <!-- view content: <form>, <tree>, <graph>, ... -->
+      </field>
+      </record>
+  </data>
+</openerp>

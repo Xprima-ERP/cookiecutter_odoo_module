@@ -1,0 +1,14 @@
+{
+    "openerp_version": "7.0",
+    "module_name": "module",
+    "module_version": "0.001",
+    "module_summary": "TODO Short description or keywords.",
+    "module_description": "TODO The module description (text).",
+    "module_category": "TODO The categrory of the module.",
+    "module_author": "TODO The author of the module.",
+    "module_website": "TODO URL of the website of the module.",
+    "module_license": "AGPL-3",
+    "module_installable": "True",
+    "module_auto_install": "False",
+    "module_application": "False",
+}
