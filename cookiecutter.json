@@ -1,6 +1,7 @@
 {
     "openerp_version": "7.0",
     "module_name": "module",
+    "module_name_title": "Module Title",
     "module_version": "0.001",
     "module_summary": "Short description or keywords.",
     "module_description": "The module description (text).",
