@@ -1,0 +1,2 @@
+id,active,perm_create,perm_unlink,group_id/id,name,model_id/id,perm_read,perm_write
+{{cookiecutter.module_name}}.access_model_name_group_group_name,True,True,True,base.group_user,{{cookiecutter.module_name}}.access_model_name_group_group_name,model_name,True,True
