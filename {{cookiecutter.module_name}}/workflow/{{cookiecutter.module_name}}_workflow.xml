@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <openerp>
+    <data>
+      <record id="wkf_model_name" model="workflow">
+        <field name="name">model_name.workflow_name</field>
+        <field name="osv">model_name</field>
+        <field name="on_create" eval="1"/>
+      </record>
+      <record id="act_activity_name" model="workflow.activity">
+        <field name="name">activity_name</field>
+        <field name="flow_start">True</field>
+        <field name="wkf_id" ref="wkf_model_name"/>
+        <field name="kind">function</field>
+        <field name="action">action_name()</field>
+      </record>
+      <record id="act_activity_name" model="workflow.activity">
+        <field name="name">activity_name</field>
+        <field name="flow_stop">True</field>
+        <field name="wkf_id" ref="wkf_model_name"/>
+        <field name="kind">function</field>
+        <field name="action">action_name()</field>
+      </record>
+      <record id="trans_idea_draft_confirmed" model="workflow.transition">
+        <field name="act_from" ref="act_activity_name"/>
+        <field name="act_to" ref="act_activity_name"/>
+        <field name="signal">button_name</field>
+        <field name="condition">1 == 1</field>
+      </record>
+    </data>
+  </openerp>
