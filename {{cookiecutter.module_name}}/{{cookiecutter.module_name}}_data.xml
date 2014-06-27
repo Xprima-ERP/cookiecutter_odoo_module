@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+    <record model="object_model_name" id="object_xml_id">
+      <field name="field1">value1</field>
+      <field name="field2">value2</field>
+    </record>
+    <record model="object_model_name2" id="object_xml_id2">
+      <field name="field1" ref="module.object_xml_id"/>
+      <field name="field2" eval="ref('module.object_xml_id')"/>
+    </record>
+  </data>
+</openerp>
