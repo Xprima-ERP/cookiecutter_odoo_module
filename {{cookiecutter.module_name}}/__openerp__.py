@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# To view the official documentation: https://doc.openerp.com/trunk/server/03_module_dev_01/
 
 {'name': '{{cookiecutter.module_name_title}}',
  'version': '{{cookiecutter.module_version}}',
@@ -14,5 +13,4 @@
  'demo': [],
  'installable': {{cookiecutter.module_installable}},
  'auto_install': {{cookiecutter.module_auto_install}},
- 'application': {{cookiecutter.module_application}},
-}
+ 'application': {{cookiecutter.module_application}}, }
