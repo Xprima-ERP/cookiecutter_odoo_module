@@ -1,0 +1,19 @@
+-
+  Creating a test case
+-
+  !record {model: model.name, id: model_name_id}:
+    field1 : "value1"
+    field2 : "value2"
+
+-
+  Call Python fuction
+
+-
+  !python {model: model.name}: |
+   self.write(cr, uid, ids, {"field1': 'new value"})
+
+-
+  Assert the result
+-
+  !assert {model: model.name, id: model_name_id, string: Assert}:
+    - field == "new value"

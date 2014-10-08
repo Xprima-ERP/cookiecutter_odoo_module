@@ -15,4 +15,5 @@
     'installable': {{cookiecutter.module_installable}},
     'auto_install': {{cookiecutter.module_auto_install}},
     'application': {{cookiecutter.module_application}},
+    'test': ['test/test.yml'],
 }
